@@ -1,0 +1,89 @@
+/*!
+ * based on Bootstrap Greyscale
+ */
+body {
+  width: 100%;
+  height: 100%;
+  font-family:  "Montserrat";
+  color: white;
+  background-color: black;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+a {
+  color: #9bcbff;
+}
+a:hover,
+a:focus {
+  color: #528ff2;
+}
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 0px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/background-origin.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro .intro-body {
+  display: table-cell;
+  padding-top: 15px;
+  vertical-align: right;
+  text-align: right;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+#name {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+#description {
+}
