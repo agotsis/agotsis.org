@@ -54,7 +54,7 @@ a:focus {
   padding: 0px 0;
   text-align: center;
   color: white;
-  background: url(../img/background-mobile.jpg) no-repeat top center fixed;
+  background: url(../img/background-mobile.jpg) no-repeat top center;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -78,7 +78,7 @@ a:focus {
 
 @media (min-width: 768px) {
   .intro {
-    background: url(../img/background-origin.jpg) no-repeat top center fixed;
+    background: url(../img/background-origin.jpg) no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
